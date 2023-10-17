@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_login">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400px"
+
+            android:background="@drawable/shape"
+            >
+
+        </ImageView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="950px"
+            android:layout_height="1500px"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="40px"
+            android:layout_marginTop="250px">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="30px"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20px"
+                    android:fontFamily="@font/baloo"
+
+                    android:text="User login"
+                    android:textColor="#03A9F4"
+                    android:textSize="60px"
+                    android:textStyle="bold">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Username:"
+                    android:layout_marginTop="200px"
+                    android:textColor="#2196F3"
+                    android:textSize="50px"
+                    android:layout_marginLeft="40px"
+                    >
+
+                </TextView>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40px"
+                    android:layout_marginTop="20px"
+                    android:backgroundTint="#03A9F4"
+                    android:fontFamily="sans-serif-smallcaps"
+
+                    android:hint="enter username"></EditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Password:"
+                    android:layout_marginTop="100px"
+                    android:textColor="#2196F3"
+                    android:textSize="50px"
+                    android:layout_marginLeft="40px"
+                    >
+
+                </TextView>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="enter password"
+                    android:layout_marginTop="20px"
+                    android:backgroundTint="#03A9F4"
+
+                    android:layout_marginLeft="40px"></EditText>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="120px"
+                    android:layout_marginLeft="30px"
+                    android:textStyle="bold"
+                    android:text="login"
+                    android:onClick="sucess1"
+
+                    ></Button>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="400px"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="Park it here.."
+        android:textColor="#03A9F4"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="900px"
+        android:layout_height="wrap_content"
+        android:text="get started"
+        android:layout_gravity="center_horizontal"
+        android:padding="40px"
+        android:textColor="@color/white"
+        android:background="@drawable/btn"
+        android:onClick="next"
+        android:layout_marginTop="350px"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

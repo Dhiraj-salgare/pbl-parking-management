@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+
+    tools:context=".home">
+
+    <ImageView
+        android:layout_width="800px"
+        android:layout_height="500px"
+        android:layout_marginTop="160px"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/car"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Park like a pro with us..!"
+        android:textStyle="bold"
+        android:textSize="60px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60px"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:layout_width="800px"
+        android:layout_height="wrap_content"
+        android:text="admin login"
+        android:layout_marginTop="200px"
+        android:onClick="adlgn"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:layout_width="800px"
+        android:layout_height="wrap_content"
+        android:text="user register"
+        android:layout_marginTop="60px"
+        android:background="@drawable/btn"
+        android:onClick="usreg"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:layout_width="800px"
+        android:layout_height="wrap_content"
+        android:text="user login"
+        android:layout_marginTop="60px"
+        android:onClick="uslgn"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

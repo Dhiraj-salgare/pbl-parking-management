@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="selected_color">#FF5733</color> <!-- Change this to your selected color -->
+    <color name="pressed_color">#FFCC00</color>
+    <color name="selected_menu_item_color">#00BCD4</color>
+    <color name="focused_menu_item_color">#F3EFEF</color> <!-- Change this to your pressed color -->
+</resources>

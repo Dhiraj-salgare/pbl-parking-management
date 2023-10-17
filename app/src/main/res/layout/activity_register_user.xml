@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register_user">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400px"
+
+            android:background="@drawable/shape"
+            >
+
+        </ImageView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="950px"
+            android:layout_height="1800px"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="40px"
+            android:layout_marginTop="80px">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="30px"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20px"
+                    android:fontFamily="@font/baloo"
+                    android:text="Register"
+                    android:textColor="#03A9F4"
+                    android:textSize="60px"
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name:"
+                    android:layout_marginTop="60px"
+                    android:textColor="#2196F3"
+                    android:textSize="50px"
+                    android:layout_marginLeft="40px"
+                    >
+
+                </TextView>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="enter username"
+                    android:layout_marginTop="10px"
+                    android:backgroundTint="#03A9F4"
+
+                    android:layout_marginLeft="40px"></EditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email:"
+                    android:layout_marginTop="20px"
+                    android:textColor="#2196F3"
+                    android:textSize="50px"
+                    android:layout_marginLeft="40px"
+                    >
+
+                </TextView>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="enter Email"
+                    android:layout_marginTop="10px"
+                    android:backgroundTint="#03A9F4"
+
+                    android:layout_marginLeft="40px"></EditText>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact No:"
+                    android:layout_marginTop="20px"
+                    android:textColor="#2196F3"
+                    android:textSize="50px"
+                    android:layout_marginLeft="40px"
+                    >
+
+                </TextView>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="enter contact No"
+                    android:layout_marginTop="10px"
+                    android:backgroundTint="#03A9F4"
+
+                    android:layout_marginLeft="40px"></EditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vehical No:"
+                    android:layout_marginTop="40px"
+                    android:textColor="#2196F3"
+                    android:textSize="50px"
+                    android:layout_marginLeft="40px"
+                    >
+
+                </TextView>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="enter vehicle number"
+                    android:layout_marginTop="20px"
+                    android:backgroundTint="#03A9F4"
+
+                    android:layout_marginLeft="40px"></EditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="password:"
+                    android:layout_marginTop="40px"
+                    android:textColor="#2196F3"
+                    android:textSize="50px"
+                    android:layout_marginLeft="40px"
+                    >
+
+                </TextView>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="enter password"
+                    android:layout_marginTop="20px"
+                    android:backgroundTint="#03A9F4"
+
+                    android:layout_marginLeft="40px"></EditText>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Confirm password:"
+                    android:layout_marginTop="60px"
+                    android:textColor="#2196F3"
+                    android:textSize="50px"
+                    android:layout_marginLeft="40px"
+                    >
+
+                </TextView>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="confirm password"
+                    android:layout_marginTop="20px"
+                    android:backgroundTint="#03A9F4"
+
+                    android:layout_marginLeft="40px"></EditText>
+
+                <Button
+                    android:layout_width="400px"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="50px"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:text="Register"
+                    android:onClick="sucess1"
+
+
+                    ></Button>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

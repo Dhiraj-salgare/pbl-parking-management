@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/item1"
+        android:title="home"
+        android:icon="@drawable/baseline_home_24"/>
+       <item
+           android:id="@+id/item2"
+           android:title="profile"
+           android:icon="@drawable/baseline_account_circle_24"/>
+
+       <item
+           android:id="@+id/item3"
+           android:title="current slot details"
+           android:icon="@drawable/detail"/>
+
+       <item
+           android:id="@+id/item4"
+           android:title="history details"
+           android:icon="@drawable/history"/>
+
+       <item
+           android:id="@+id/item5"
+           android:title="set rupees"
+           android:icon="@drawable/rupee"/>
+
+      <item
+          android:id="@+id/item6"
+          android:title="Scan Qr"
+          android:icon="@drawable/scanner_24"/>
+
+       <item
+           android:id="@+id/item7"
+           android:title="logout"
+           android:icon="@drawable/logout_24"/>
+
+
+
+   </group>
+</menu>
