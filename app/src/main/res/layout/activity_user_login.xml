@@ -96,7 +96,7 @@
                     android:layout_marginLeft="30px"
                     android:textStyle="bold"
                     android:text="login"
-                    android:onClick="sucess1"
+                    android:onClick="sucess2"
 
                     ></Button>
             </LinearLayout>
