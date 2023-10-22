@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item11"
+            android:title="home"
+            android:icon="@drawable/baseline_home_24"/>
+        <item
+            android:id="@+id/item22"
+            android:title="profile"
+            android:icon="@drawable/baseline_account_circle_24"/>
+
+        <item
+            android:id="@+id/item33"
+            android:title="Book slots"
+            android:icon="@drawable/baseline_book_24"/>
+
+        <item
+            android:id="@+id/item44"
+            android:title="Bill"
+            android:icon="@drawable/baseline_payment_24"/>
+
+        <item
+            android:id="@+id/item55"
+            android:title="generate Qr"
+            android:icon="@drawable/baseline_qr_code_24"/>
+
+
+
+        <item
+            android:id="@+id/item66"
+            android:title="logout"
+            android:icon="@drawable/logout_24"/>
+
+
+
+    </group>
+
+</menu>

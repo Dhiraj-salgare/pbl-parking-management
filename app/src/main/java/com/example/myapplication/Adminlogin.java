@@ -18,4 +18,6 @@ public class Adminlogin extends AppCompatActivity {
         Intent intent=new Intent(Adminlogin.this,adminfunc.class);
         startActivity(intent);
     }
+
+
 }
