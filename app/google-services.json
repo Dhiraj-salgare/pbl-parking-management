@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "348058775967",
+    "project_id": "parking-management-20465",
+    "storage_bucket": "parking-management-20465.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348058775967:android:e2a8a53fb9daa9b03b0daa",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcHC0TsIiQonSqlqv-ARHB4QnYO2NYYLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
