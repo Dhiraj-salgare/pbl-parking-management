@@ -71,6 +71,7 @@
 
                 </TextView>
                 <EditText
+                    android:id="@+id/nameid"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="enter username"
@@ -80,6 +81,7 @@
                     android:layout_marginLeft="40px"></EditText>
 
                 <TextView
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Email:"
@@ -91,6 +93,7 @@
 
                 </TextView>
                 <EditText
+                    android:id="@+id/emailid"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="enter Email"
@@ -110,6 +113,7 @@
 
                 </TextView>
                 <EditText
+                    android:id="@+id/contactid"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="enter contact No"
@@ -130,6 +134,7 @@
 
                 </TextView>
                 <EditText
+                    android:id="@+id/vehicleid"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="enter vehicle number"
@@ -150,6 +155,7 @@
 
                 </TextView>
                 <EditText
+                    android:id="@+id/passid"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="enter password"
@@ -157,7 +163,9 @@
                     android:backgroundTint="#03A9F4"
 
                     android:layout_marginLeft="40px"></EditText>
+
                 <TextView
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Confirm password:"
@@ -169,6 +177,7 @@
 
                 </TextView>
                 <EditText
+                    android:id="@+id/confpassid"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="confirm password"
@@ -177,7 +186,10 @@
 
                     android:layout_marginLeft="40px"></EditText>
 
+
+
                 <Button
+                    android:id="@+id/regid"
                     android:layout_width="400px"
                     android:layout_height="wrap_content"
                     android:background="@drawable/btn"
@@ -190,28 +202,9 @@
 
 
                     ></Button>
-                        <EditText
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:hint="confirm password"
-                            android:layout_marginTop="20px"
-                            android:backgroundTint="#03A9F4"
-
-                            android:layout_marginLeft="40px"></EditText>
-
-                        <Button
-                            android:layout_width="400px"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/btn"
-                            android:textColor="@color/white"
-                            android:layout_marginTop="50px"
-                            android:layout_gravity="center_horizontal"
-                            android:textStyle="bold"
-                            android:text="Register"
-                            android:onClick="sucess1"
 
 
-                            ></Button>
+
                     </LinearLayout>
                 </ScrollView>
 

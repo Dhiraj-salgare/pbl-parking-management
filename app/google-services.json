@@ -1,13 +1,23 @@
 {
   "project_info": {
+<<<<<<< HEAD
     "project_number": "928878131989",
     "project_id": "parking-5330e",
     "storage_bucket": "parking-5330e.appspot.com"
+=======
+    "project_number": "348058775967",
+    "project_id": "parking-management-20465",
+    "storage_bucket": "parking-management-20465.appspot.com"
+>>>>>>> origin/main
   },
   "client": [
     {
       "client_info": {
+<<<<<<< HEAD
         "mobilesdk_app_id": "1:928878131989:android:992b9df2af400164a8071c",
+=======
+        "mobilesdk_app_id": "1:348058775967:android:e2a8a53fb9daa9b03b0daa",
+>>>>>>> origin/main
         "android_client_info": {
           "package_name": "com.example.myapplication"
         }
@@ -15,7 +25,11 @@
       "oauth_client": [],
       "api_key": [
         {
+<<<<<<< HEAD
           "current_key": "AIzaSyDV6ZCaHBAIhIYksxYuRvYKVv3E8GB-cW0"
+=======
+          "current_key": "AIzaSyBcHC0TsIiQonSqlqv-ARHB4QnYO2NYYLM"
+>>>>>>> origin/main
         }
       ],
       "services": {
