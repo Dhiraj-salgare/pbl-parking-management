@@ -1,18 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20px"
     tools:context=".user_generateQr">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textSize="40px"
-        android:gravity="center_vertical"
-        android:layout_marginLeft="200px"
-        android:textColor="@color/black"
-        android:text="generate qr" />
 
-</RelativeLayout>
+<androidx.cardview.widget.CardView
+    android:layout_width="900px"
+    android:layout_height="1500px"
+    android:layout_marginTop="400px"
+    app:cardCornerRadius="30px"
+
+    android:layout_gravity="center_horizontal">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:layout_marginLeft="80px"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#03A9F4"
+        android:fontFamily="@font/baloo"
+
+        android:text="Your Qr Code is"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120px"
+        android:layout_marginTop="100px"
+        android:id="@+id/qrCodeImageView"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100px"
+            android:layout_marginLeft="80px"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#03A9F4"
+            android:fontFamily="@font/baloo"
+
+            android:text="scan Qr to verify yourself"/>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.cardview.widget.CardView>
+
+</FrameLayout>

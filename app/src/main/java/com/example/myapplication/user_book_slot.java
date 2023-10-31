@@ -7,7 +7,10 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-public class user_bookslot extends Fragment {
+
+
+public class user_book_slot extends Fragment {
+
 
 
 
@@ -15,6 +18,6 @@ public class user_bookslot extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_user_bookslot, container, false);
+        return inflater.inflate(R.layout.fragment_user_book_slot, container, false);
     }
 }
