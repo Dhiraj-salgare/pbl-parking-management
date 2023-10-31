@@ -98,7 +98,7 @@ public class userlogin_fun extends AppCompatActivity{
                     // Fragment not yet added, add it
                     getSupportFragmentManager()
                             .beginTransaction()
-                            .replace(R.id.frame2, new user_bookslot())
+                            .replace(R.id.frame2, new user_book_slot())
                             .commit();
 
 
